@@ -1,11 +1,8 @@
 Google Form Creation by using Google App Script and POST request.
-# *Steps to deploy*
 
- 1. Go to Go to [Google App Script](https://script.google.com/).
- 2. Create a new Script.
- 3. Copy and Paste contents of [Git](https://github.com/preetjdp/gdgmadevents/blob/master/scripts/googleFormScript.gs)
- 4. Run function
- 5. Publish ⇒ Deploy as web app and set access to be anonymous. 
+# Deploy
+
+    clasp deploy
 
 # Required Parameters
 
@@ -13,6 +10,7 @@ Google Form Creation by using Google App Script and POST request.
 
     {
     "title": "GDG MAD Feb",
+    "description": "A description",
     "talks": [
         {
             "title": "RxJava - Intro and Beyond",
@@ -28,7 +26,13 @@ Google Form Creation by using Google App Script and POST request.
         }
     ]
     }
-    
+
+If the description is null a default description will be used :
+
+
+    Thank you for participation. We hope you had as much fun attending as we did organizing it. We want to hear your feedback so we can keep improving our talks, events and workshop. Please fill this quick survey and let us know your thoughts.
+
+      
 
 ***Response Sample***
 
