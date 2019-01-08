@@ -1,0 +1,38 @@
+{
+    "event": [{
+        "id": 1,
+        "name": "GDGMAD November, 2018",
+        "desc": "We're GDG MAD now! Join us for our first meetup as a GDG, with three riveting talks, followed by our very first edition of Lets Build, an initiative which we'll tell you more about on the day!",
+        "time": 1549944000000,
+        "date": "24-11-2018",
+        "venue": {
+            "address": "Endurance International Group\nUnit No. 501, 5th Floor, IT Building 3, Nesco IT park,\nNesco Complex, Western Express Highway,\nGoregaon (east), Mumbai-400063",
+            "link": "https://goo.gl/maps/MuPPtLuHVuL2",
+            "latLng": [19.1523545, 72.8557683]
+        },
+        "agenda": [{
+                "name": "Learn and Iterate",
+                "speaker": {
+                    "id": 256,
+                    "name": "Aniket Kadam",
+                    "image": "https://pbs.twimg.com/profile_images/967446901535617028/CUkn398C_400x400.jpg",
+                    "twitter": "@AniketSMK"
+
+                },
+                "start": "11:45 am",
+                "end": "12:15 pm"
+            },
+            {
+                "name": "We build Empathy, not Just Models",
+                "speaker": {
+                    "id": 123,
+                    "name": "Avani Shah",
+                    "image": "https://pbs.twimg.com/profile_images/1065955693444792320/7Abo5iwb_400x400.jpg",
+                    "twitter": "@Avanish52111547"
+                },
+                "start": "11:00 am",
+                "end": "11:45 am"
+            }
+        ]
+    }]
+}
